@@ -6,6 +6,11 @@
     height:auto;
 }
 
+#standard-pagina {
+width: 1050px;
+height: auto;
+}
+
 #titolo-principale {
     font-size: 40px;
 }
@@ -20,4 +25,35 @@
 
 .evidenziato {
     background-color: yellow;
+}
+
+ul {
+    padding-left: 16px;
+}
+
+.tabella {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabella th {
+    text-align: left;
+    background-color: rgb(72, 185, 250);
+    color: white;
+}
+
+.tabella th:nth-child(1) {
+    width: 25%;
+}
+
+.tabella th:nth-child(2) {
+    width: 25%;
+}
+
+.tabella th:nth-child(3) {
+    width: 50%;
+}
+
+.riga-celeste {
+    background-color: rgb(137, 233, 255);
 }
