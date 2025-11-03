@@ -27,12 +27,23 @@ header {
     margin: 0;
 }
 
-.margine {
+.titoletto {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: grey;
+}
+
+.evidenziato-azzurro {
+    color: rgb(0, 166, 255);
+}
+
+.margine-pagina {
     margin: 8px;
 }
 
 #titolo-principale {
     font-size: 40px;
+    margin-bottom: 0;
 }
 
 #foto-tim {
